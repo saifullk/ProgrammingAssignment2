@@ -20,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## The function cacheSolve inverts the special cache Matrix and ensures 
-## better performance by first checking if it has already been calculated. 
+## better performance by first checking if it has already been cached 
 
 cacheSolve <- function(x, ...) {
   m <- x$getsolve()
